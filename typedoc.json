@@ -1,0 +1,20 @@
+{
+  "tsconfig": "src/tsconfig.json",
+  "entryPoints": [
+    "./src"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "excludePrivate": true,
+  "name": "Oracle Coherence JavaScript Client",
+  "includeVersion": true,
+  "readme": "README.md",
+  "hideGenerator": true,
+  "excludeExternals": false,
+  "disableSources": true,
+  "exclude": [
+    "**/grpc/**",
+    "**/node_modules/**"
+  ]
+}
+
